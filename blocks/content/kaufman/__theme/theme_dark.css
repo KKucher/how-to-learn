@@ -1,0 +1,21 @@
+.section-title_theme_dark {
+  margin-top: 90px;
+  color: white;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+}
+
+.table_theme_dark {
+  margin-bottom: 90px;
+  position: relative;
+  z-index: 2;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
