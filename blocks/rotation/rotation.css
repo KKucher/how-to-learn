@@ -1,12 +1,16 @@
 @keyframes rotation {
-  from {
+  0% {
     transform: rotate(0deg);
     }
-  to {
+  100% {
     transform: rotate(360deg);
     }
 }
 
-.rotation:hover {
+.rotation {
+  -webkit-animation: rotation 20s linear infinite;
+  -moz-animation: rotation 20s linear infinite;
+  -o-animation: rotation 20s linear infinite;
+  -ms-animation: rotation 20s linear infinite;
   animation: rotation 20s linear infinite;
 }

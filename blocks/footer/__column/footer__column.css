@@ -1,0 +1,39 @@
+@import url(./_content/footer__column_content_copyright.css);
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column-link {
+  color: white;
+  margin: 0;
+  padding-bottom: 16px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+
+  opacity:1;
+  transition: all 0.5s ease;
+}
+
+.footer__column-link:hover {
+  opacity:0.5;
+  transition: all 0.5s ease;
+}
+
+.footer__column-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__column-heading {
+  color: white;
+  margin: 0;
+  padding-bottom: 20px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 700;
+}

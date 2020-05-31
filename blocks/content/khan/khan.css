@@ -2,6 +2,11 @@
 @import url(./__book/khan__book.css);
 @import url(./__buy-link/khan__buy-link.css);
 
+.khan {
+  padding-top: 105px;
+  background-color: #f2f2f2;
+}
+
 .khan__container {
   width: 80%;
   margin: 0 auto;
