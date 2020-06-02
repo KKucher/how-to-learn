@@ -1,8 +1,7 @@
-@import url(./-subline/khan__quote-author-subline.css);
-
 .khan__quote-author {
   line-height: 1.15;
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 10px;
+  margin-top: 0;
 }

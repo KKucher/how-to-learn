@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
+
+.contact-us {
+  display: flex;
+  position: relative;
+  top: -117px;
+
+  font-family: 'YandexSansText-Regular', 'Manrope', sans-serif;
+}
+
+.contact-bg{
+  width: 650px;
+  background: #1f1f1f;
+  padding: 50px;
+  padding-top: 25px;
+  margin: 0 auto;
+  border-radius: 50px;
+  position: relative;
+
+  box-shadow: 10px 10px 10px rgba(0,0,0,.2);
+}
+
+.title {
+  color: white;
+  letter-spacing: 5px;
+  margin-bottom: 25px;
+  text-align: center;
+
+  line-height: 1.5;
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.form,
+.form-items{
+  width: 100%;
+}
+
+.form-items .input{
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 15px 40px;
+  box-sizing: border-box;
+  background: #ebeef1;
+  border: 0px;
+  outline: none;
+  border-radius: 30px;
+}
+
+.form-items .input.message{
+  height: 125px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  padding: 15px 15px;
+  resize: none;
+}
+
+.btn{
+  background: #2f80ed;
+  text-align: center;
+  color: #fff;
+  padding: 12px;
+  border-radius: 25px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all .4s ease-in-out;
+}
+
+.btn:hover {
+  background: #1872eb;
+  transform: scale(0.99);
+}
+
+.fa {
+  margin-left: 5px;
+}
+
+.btn .fas{
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.form-items{
+  position: relative;
+}
+
+.form-items .fas{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: #9a99aa;
+}
+
+.social-icons{
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  width: 200px;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-icons div{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+
+  transition: all .2s ease-in-out;
+}
+
+.social-icons div:hover {
+  transform: scale(1.1);
+}
+
+.social-icons div .fab{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+}
+
+.social-icons div.facebook{
+  background: #5178d9;
+}
+
+.social-icons div.twitter{
+  background: #41caf6;
+}
+
+.social-icons div.vk{
+  background: #4d7198;
+}
+
+@font-face {
+  font-family: 'YandexSansText-Regular';
+  src: url(../../fonts/YandexSans/YandexSansText-Regular.ttf);
+}
